@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  }
+}
+
+@layer components {
+  .tamil-font {
+    font-family: 'Noto Sans Tamil', sans-serif;
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+  }
+  
+  .card-shadow {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .field-healthy {
+    background: linear-gradient(135deg, #D1FAE5 0%, #A7F3D0 100%);
+  }
+  
+  .field-warning {
+    background: linear-gradient(135deg, #FEF3C7 0%, #FCD34D 100%);
+  }
+  
+  .field-critical {
+    background: linear-gradient(135deg, #FEE2E2 0%, #FECACA 100%);
+  }
+}
